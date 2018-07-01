@@ -1,0 +1,26 @@
+{
+  "name": "ts-install",
+  "version": "1.0.0",
+  "description": "install a library and types",
+  "main": "index.js",
+  "bin": {
+    "ts-install": "index.js",
+    "ti": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroppy/ts-node-app.git"
+  },
+  "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroppy/ts-node-app/issues"
+  },
+  "homepage": "https://github.com/hiroppy/ts-node-app#readme",
+  "dependencies": {
+    "npm-install-package": "^2.1.0"
+  }
+}
